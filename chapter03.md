@@ -7,3 +7,7 @@ To cut, we used a variety of tools. After some research, a jigsaw seemed the mos
 
 Learnings:
 - The jigsaw blade got dull after a couple hours of cutting. Need to track this and change it every hour.
+
+## Filing and Sanding
+
+## Routing
