@@ -7,3 +7,4 @@ Sharing the path to building (or not?) our own R2D2.
 3. [Cutting out the frame](chapter03.md)
 
 
+![IMG_9760](https://user-images.githubusercontent.com/8389039/171852255-c0780d74-ad40-4038-9e07-9add6219bc9d.jpg)
