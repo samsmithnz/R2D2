@@ -13,6 +13,7 @@ Learnings:
 With the most of the pieces cut (see routing below), some rasps/files and sandpaper, we got to work putting together most of the pieces. I really was just sanding enough wood to get a good fit, before I was ready to glue. With that done, it's time to start the routing. For now, I'm leaving the glued paper on the wood, I may remove it, or just leave it. It's not hurting anything and helps me to remember how the pieces stick together.
 ![IMG_9761](https://user-images.githubusercontent.com/8389039/171961254-37ee5e08-af3f-4392-8c10-dcd0b1c0c293.jpg)
 ![IMG_9762](https://user-images.githubusercontent.com/8389039/171961265-43fde24c-9569-4f4b-b309-2c82cb97717e.jpg)
+![IMG_9774](https://user-images.githubusercontent.com/8389039/172051968-94404f32-fc60-4b11-9ada-319921ccc718.jpg)
 
 
 ## Routing
