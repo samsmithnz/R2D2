@@ -17,3 +17,5 @@ With the most of the pieces cut (see routing below), some rasps/files and sandpa
 
 
 ## Routing
+
+This was my first time routing. It is pretty unforgiving. I experimented a bit with guides to make straight lines, but ultimately found it worked ok for long cuts, but for lots of little ones (as the round base and top have), it was easier to 'freestyle' - which after a bit of practice I was better at. 
