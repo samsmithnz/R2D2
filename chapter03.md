@@ -13,9 +13,21 @@ Learnings:
 With the most of the pieces cut (see routing below), some rasps/files and sandpaper, we got to work putting together most of the pieces. I really was just sanding enough wood to get a good fit, before I was ready to glue. With that done, it's time to start the routing. For now, I'm leaving the glued paper on the wood, I may remove it, or just leave it. It's not hurting anything and helps me to remember how the pieces stick together.
 ![IMG_9761](https://user-images.githubusercontent.com/8389039/171961254-37ee5e08-af3f-4392-8c10-dcd0b1c0c293.jpg)
 ![IMG_9762](https://user-images.githubusercontent.com/8389039/171961265-43fde24c-9569-4f4b-b309-2c82cb97717e.jpg)
-![IMG_9774](https://user-images.githubusercontent.com/8389039/172051968-94404f32-fc60-4b11-9ada-319921ccc718.jpg)
 
 
 ## Routing
 
-This was my first time routing. It is pretty unforgiving. I experimented a bit with guides to make straight lines, but ultimately found it worked ok for long cuts, but for lots of little ones (as the round base and top have), it was easier to 'freestyle' - which after a bit of practice I was better at. 
+This was my first time routing - I've never used a router before. It is pretty unforgiving. I experimented a bit with guides to make straight lines, but ultimately found it worked ok for long cuts, but for lots of little ones (as the round base and top have), it was easier to 'freestyle' - which after a bit of practice I was better at. 
+
+First few attempts...
+![IMG_9769](https://user-images.githubusercontent.com/8389039/172160098-ed65e129-ec90-4d1c-ba56-8a637671a6f9.jpg)
+
+Starting to get the hang of this. This was my first cut on a template, and I was proud of the result
+![IMG_9770](https://user-images.githubusercontent.com/8389039/172160145-d7a0710e-ea22-4b04-a151-3aa500644057.jpg)
+
+My daughter got involved, she likes to sand!
+![IMG_9772](https://user-images.githubusercontent.com/8389039/172160248-06df1f0e-cbbe-4cf9-abdd-996dcf319286.jpg)
+
+
+## Final product - ready for glue!
+![IMG_9774](https://user-images.githubusercontent.com/8389039/172051968-94404f32-fc60-4b11-9ada-319921ccc718.jpg)
