@@ -6,4 +6,4 @@ Piecing together a few pieces, [the plan](https://github.com/samsmithnz/R2D2/blo
 
 This is for each of the two legs
 1. We need two 1/2" cut outs (total of 4 for both legs)
-2. We need one 3/4" cut out (total of 2 for both legs)
+2. We need one 3/4" cut out (total of 2 for both legs). We will cut out the middle to leave a 1" perimeter - this is to allow for electronics and things to be routed to the feet later
