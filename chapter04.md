@@ -15,5 +15,5 @@ This is for each of the two legs
 This sketch shows the different layers I'm planning to cut
 ![image](https://user-images.githubusercontent.com/8389039/172628942-3693e883-f46c-4d9f-b4d2-c056ab636c5e.png)
 
-There are layers that go on top (horse shoe shoulder, and some details), but this is the main stops to get to the legs being done. 
+There are additional layers that go on top (horse shoe shoulder, and some details), but this is the main pieces to get to the legs done. 
 
