@@ -18,3 +18,13 @@ This sketch shows the different layers I'm planning to cut
 There are additional layers that go on top (horse shoe shoulder, and some details), but this is the main pieces to get to the legs done. 
 
 I cut out one of the templates, and traced it, four times on the 1/2" plywood, and twice on the 3/4" plywood. 
+![IMG_9784](https://user-images.githubusercontent.com/8389039/173122662-b3134f65-0ccf-4014-b13d-6d21ed499bdc.jpg)
+
+Starting the cutting with the jigsaw!
+![IMG_9786](https://user-images.githubusercontent.com/8389039/173122690-9e5260bc-8ec9-494c-924f-21d7772d870a.jpg)
+
+On the 3/4" templates, we also cut out the center, about 1" from the edges - this is the center piece that any wires/mechanics/electronics will sit in. 
+![IMG_9785](https://user-images.githubusercontent.com/8389039/173122703-c2f6985e-b409-4bd8-9e1e-d3fbd0aa02ea.jpg)
+
+Then we put the pieces together. 1/2" on each side, with the 3/4" piece in the middle
+![IMG_9787](https://user-images.githubusercontent.com/8389039/173122837-d977f13e-4ddd-4b1e-b776-95402f43252f.jpg)
