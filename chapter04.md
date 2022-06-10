@@ -10,10 +10,11 @@ This is for each of the two legs
 1. We need an outside 1/2" cut out (total of 2 for both legs)
 2. We need an inside 1/2" cut out (total of 2 for both legs)
 3. We need a 3/4" cut out (total of 2 for both legs). We will cut out the middle to leave a 1" perimeter - this is to allow for electronics and things to be routed to the feet later
-4. We need two 3/8 cut outs for the ankles
+4. We need two 3/8" cut outs for the ankles
 
 This sketch shows the different layers I'm planning to cut
 ![image](https://user-images.githubusercontent.com/8389039/172628942-3693e883-f46c-4d9f-b4d2-c056ab636c5e.png)
 
 There are additional layers that go on top (horse shoe shoulder, and some details), but this is the main pieces to get to the legs done. 
 
+I cut out one of the templates, and traced it, four times on the 1/2" plywood, and twice on the 3/4" plywood. 
