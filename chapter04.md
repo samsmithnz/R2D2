@@ -32,3 +32,8 @@ Then we put the pieces together. 1/2" on each side, with the 3/4" piece in the m
 ### The shoulders
 - 12x 5/16" wide by 2" long, with a 1/2" hexagonal bolt head (labeled "AKD" at Home Depot). Only one half of the screw is threaded, the half furthest from the hexagonal bolt head
 - 8x 1/4" wide by 2" long with a 3/8" hexagonal bolt head (labeled "BL"), and are also only threaded on the half furthest from the hexagonal bolt head
+- 1" gas pipe (2 ft long?)
+- 3/4" gas pipe
+
+![image](https://user-images.githubusercontent.com/8389039/173209881-b3f647ad-abb9-4d0c-91ab-a7f3d32051e5.png)
+
