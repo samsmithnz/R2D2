@@ -38,3 +38,5 @@ Then we put the pieces together. 1/2" on each side, with the 3/4" piece in the m
 
 ![image](https://user-images.githubusercontent.com/8389039/173209881-b3f647ad-abb9-4d0c-91ab-a7f3d32051e5.png)
 
+### Putting it all together
+Great video showing some steps: https://www.youtube.com/watch?v=oO8-lev-UFw
