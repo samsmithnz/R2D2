@@ -28,3 +28,7 @@ On the 3/4" templates, we also cut out the center, about 1" from the edges - thi
 
 Then we put the pieces together. 1/2" on each side, with the 3/4" piece in the middle
 ![IMG_9787](https://user-images.githubusercontent.com/8389039/173122837-d977f13e-4ddd-4b1e-b776-95402f43252f.jpg)
+
+### The shoulders
+- 12x 5/16" wide by 2" long, with a 1/2" hexagonal bolt head (labeled "AKD" at Home Depot). Only one half of the screw is threaded, the half furthest from the hexagonal bolt head
+- 8x 1/4" wide by 2" long with a 3/8" hexagonal bolt head (labeled "BL"), and are also only threaded on the half furthest from the hexagonal bolt head
