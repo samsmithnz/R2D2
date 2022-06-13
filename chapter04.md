@@ -29,7 +29,7 @@ On the 3/4" templates, we also cut out the center, about 1" from the edges - thi
 Then we put the pieces together. 1/2" on each side, with the 3/4" piece in the middle
 ![IMG_9787](https://user-images.githubusercontent.com/8389039/173122837-d977f13e-4ddd-4b1e-b776-95402f43252f.jpg)
 
-### The shoulders
+### The shoulders (current WIP/stage)
 - 12x 5/16" wide by 2" long, with a 1/2" hexagonal bolt head (labeled "AKD" at Home Depot). Only one half of the screw is threaded, the half furthest from the hexagonal bolt head
 - 8x 1/4" wide by 2" long with a 3/8" hexagonal bolt head (labeled "BL"), and are also only threaded on the half furthest from the hexagonal bolt head
 - 12x t-nuts I used have a 3/8" outer diameter, and a 5/16" inner diameter
@@ -38,5 +38,4 @@ Then we put the pieces together. 1/2" on each side, with the 3/4" piece in the m
 
 ![image](https://user-images.githubusercontent.com/8389039/173209881-b3f647ad-abb9-4d0c-91ab-a7f3d32051e5.png)
 
-### Putting it all together
-Great video showing some steps: https://www.youtube.com/watch?v=oO8-lev-UFw
+**Putting it all together**: Great video showing some steps: https://www.youtube.com/watch?v=oO8-lev-UFw
