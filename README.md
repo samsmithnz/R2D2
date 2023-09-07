@@ -6,6 +6,7 @@ Sharing the path to building (or not?) our own R2D2.
 2. [Blueprints](chapter02.md)
 3. [Cutting out the frame](chapter03.md)
 4. [Creating the legs](chapter04.md)
+5. [The dome...](chapter05.md)
 
 ![image](https://user-images.githubusercontent.com/8389039/172520540-c29c438b-2d1b-4cb6-a2e4-d6632e8c20a5.png)
 
