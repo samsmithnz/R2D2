@@ -7,6 +7,8 @@ Sharing the path to building (or not?) our own R2D2.
 3. [Cutting out the frame](chapter03.md)
 4. [Creating the legs](chapter04.md)
 5. [The dome...](chapter05.md)
+6. [Body revisited](chapter06.md)
+7. [Legs revisited](chapter07.md)
 
 ![image](https://user-images.githubusercontent.com/8389039/172520540-c29c438b-2d1b-4cb6-a2e4-d6632e8c20a5.png)
 
