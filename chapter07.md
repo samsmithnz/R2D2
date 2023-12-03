@@ -8,8 +8,8 @@ Left leg
 - [ ] Center Leg
 - [x] Sideplate 1 top
 - [x] Sideplate 1 bottom
-- [ ] Sideplate 2 top
-- [ ] Sideplate 2 bottom
+- [x] Sideplate 2 top
+- [x] Sideplate 2 bottom
 - [ ] Ankle Back
 - [ ] Ankle Curve
 - [ ] Ankle Hinge
