@@ -14,4 +14,6 @@ Sharing the path to building (or not?) our own R2D2.
 
 ![IMG_9760](https://user-images.githubusercontent.com/8389039/171852255-c0780d74-ad40-4038-9e07-9add6219bc9d.jpg)
 
-![IMG_9760](https://static.standard.co.uk/s3fs-public/thumbnails/image/2017/06/29/09/r2d2sakvage2906a.jpg?width=1200)
+![r2d2sakvage2906a](https://static.standard.co.uk/s3fs-public/thumbnails/image/2017/06/29/09/r2d2sakvage2906a.jpg?width=1200)
+
+![r2d2-all-angles.jpg](https://www.giantbomb.com/a/uploads/original/2/24459/2408604-star_wars___r2_d2_by_cosedimarco.jpg)
