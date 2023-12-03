@@ -13,3 +13,5 @@ Sharing the path to building (or not?) our own R2D2.
 ![image](https://user-images.githubusercontent.com/8389039/172520540-c29c438b-2d1b-4cb6-a2e4-d6632e8c20a5.png)
 
 ![IMG_9760](https://user-images.githubusercontent.com/8389039/171852255-c0780d74-ad40-4038-9e07-9add6219bc9d.jpg)
+
+![IMG_9760](https://static.standard.co.uk/s3fs-public/thumbnails/image/2017/06/29/09/r2d2sakvage2906a.jpg?width=1200)
