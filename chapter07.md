@@ -12,7 +12,7 @@ Left leg
 - [x] Sideplate 2 bottom
 - [ ] Ankle Back
 - [ ] Ankle Curve
-- [ ] Ankle Hinge
+- [x] Ankle Hinge
 
 Right leg
 - [ ] Top Shoulder
