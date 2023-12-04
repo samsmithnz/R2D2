@@ -5,7 +5,7 @@ Left leg
 - [x] Lower Shoulder
 - [x] Lower Leg
 - [x] Leg Bolt Insert (x4)
-- [ ] Center Leg
+- [x] Center Leg
 - [x] Sideplate 1 top
 - [x] Sideplate 1 bottom
 - [x] Sideplate 2 top
