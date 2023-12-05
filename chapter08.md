@@ -10,6 +10,6 @@
 - [ ] The Rest (9 pieces)
 ### Wheels
 - [ ] Frames (7 pieces)
-- [ ] Wheel cores (18 pieces)
+- [ ] Cores (18 pieces)
 ### Shells
 ### Drivechain
