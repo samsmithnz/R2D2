@@ -10,8 +10,8 @@ Left leg
 - [x] Sideplate 1 bottom
 - [x] Sideplate 2 top
 - [x] Sideplate 2 bottom
-- [ ] Ankle Back
-- [ ] Ankle Curve
+- [x] Ankle Back
+- [x] Ankle Curve
 - [x] Ankle Hinge
 
 Right leg
