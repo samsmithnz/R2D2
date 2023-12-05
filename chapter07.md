@@ -16,7 +16,7 @@
 ### Horseshoe
 - [ ] LHorseshoeLeft + Right (2 pieces)
 - [ ] LHorseshoePlatetop (2 pieces)
-- [ ] LHorseshoePlateLeft + Right (2 pieces)
+- [x] LHorseshoePlateLeft + Right (2 pieces)
 
 ## Right leg
 - [ ] Top Shoulder
