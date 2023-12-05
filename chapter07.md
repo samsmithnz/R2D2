@@ -1,6 +1,6 @@
-Printing checklist
+# Printing checklist
 
-Left leg
+## Left leg
 - [x] Top Shoulder
 - [x] Lower Shoulder
 - [x] Lower Leg
@@ -13,8 +13,12 @@ Left leg
 - [x] Ankle Back
 - [x] Ankle Curve
 - [x] Ankle Hinge
+### Horseshoe
+- [ ] LHorseshoeLeft + Right (2 pieces)
+- [ ] LHorseshoePlatetop (2 pieces)
+- [ ] LHorseshoePlateLeft + Right (2 pieces)
 
-Right leg
+## Right leg
 - [ ] Top Shoulder
 - [ ] Lower Shoulder
 - [ ] Lower Leg
