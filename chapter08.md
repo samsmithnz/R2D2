@@ -14,9 +14,7 @@
 ### Shells
 - [ ] Shell1Pt1
 - [ ] Shell1Pt2
-- [ ] Shell2Pt1
-- [ ] Shell2Pt2
-- [ ] Shell3Pt1
-- [ ] Shell3Pt2
+- [ ] Shell2Pt1&2 (2 pieces)
+- [ ] Shell3Pt1&2 (2 pieces)
 ### Drivechain
 - [ ] Drivechain (10 pieces)
