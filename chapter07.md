@@ -17,6 +17,8 @@
 - [ ] LHorseshoeLeft + Right (2 pieces)
 - [ ] LHorseshoePlatetop (2 pieces)
 - [x] LHorseshoePlateLeft + Right (2 pieces)
+### Left booster
+- [ ] Booster (7 pieces)
 
 ## Right leg
 - [ ] Top Shoulder
