@@ -14,11 +14,26 @@
 - [x] Ankle Curve
 - [x] Ankle Hinge
 ### Horseshoe
-- [ ] LHorseshoeLeft + Right (2 pieces)
-- [ ] LHorseshoePlatetop (2 pieces)
+- [x] LHorseshoeLeft + Right (2 pieces)
+- [x] LHorseshoePlatetop (2 pieces)
 - [x] LHorseshoePlateLeft + Right (2 pieces)
 ### Left booster
 - [ ] Booster (7 pieces)
+### Left Foot/Shell
+- [ ] Shell 1 Part 1
+- [ ] Shell 1 Part 2
+- [ ] Shell 2
+- [ ] Shell 3
+### Left Foot/Frame
+- [ ] ABC Top
+- [ ] Motor Frame
+- [ ] Side Frame
+- [ ] The rest
+### Left Foot/Wheel
+- [ ] Omniframes
+- [ ] Wheels
+### Left Foot/Driveshaft
+- [ ] bits
 
 ## Right leg
 - [ ] Top Shoulder
