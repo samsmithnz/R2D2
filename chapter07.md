@@ -34,6 +34,11 @@
 - [ ] Wheels
 ### Left Foot/Driveshaft
 - [ ] bits
+### Left Greebles
+- [ ] 1
+- [ ] 2
+- [ ] 3
+- [ ] 4
 
 ## Right leg
 - [ ] Top Shoulder
