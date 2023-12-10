@@ -7,9 +7,10 @@ Sharing the path to building (or not?) our own R2D2.
 3. [Cutting out the frame](chapter03-cutting-the-frame.md)
 4. [Creating the legs](chapter04-cutting-the-legs.md)
 ## Rebooting with a 3d printer
-5. [The dome...](chapter05-the-dome.md)
-6. [Body revisited](chapter06-the-body.md)
-7. [Legs revisited](chapter07-the-legs.md)
+5. [Restarting with the dome...](chapter05-the-dome.md)
+6. [3d printing the body](chapter06-the-body.md)
+7. [3d printing the legs](chapter07-the-legs.md)
+7. [3d printing the feet](chapter07-the-legs.md)
 
 ![image](https://user-images.githubusercontent.com/8389039/172520540-c29c438b-2d1b-4cb6-a2e4-d6632e8c20a5.png)
 
