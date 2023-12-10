@@ -4,8 +4,8 @@ Sharing the path to building (or not?) our own R2D2.
 
 1. [How this got started](chapter01-getting-started.md)
 2. [Blueprints](chapter02-blueprints.md)
-3. [Cutting out the frame](chapter03.md)
-4. [Creating the legs](chapter04.md)
+3. [Cutting out the frame](chapter03-cutting-the-frame.md)
+4. [Creating the legs](chapter04-cutting-the-legs.md)
 5. [The dome...](chapter05.md)
 6. [Body revisited](chapter06.md)
 7. [Legs revisited](chapter07.md)
