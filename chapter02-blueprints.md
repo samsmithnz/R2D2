@@ -8,4 +8,5 @@ Our first failed attempt with PVA/School glue. It just wrinkled right away.
 ![FailedAttempt](https://user-images.githubusercontent.com/8389039/171204715-91c62dbf-a23d-4f36-8807-6d1b0589f9d6.jpg)
 
 A more successful attempt with glue sticks and the flattening tool
+
 ![IMG_9738](https://user-images.githubusercontent.com/8389039/171160665-41647e20-ef8e-4ade-affd-fc84243285ae.jpg)
