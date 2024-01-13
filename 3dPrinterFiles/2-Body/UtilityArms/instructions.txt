@@ -1,0 +1,1 @@
+I had to print UtilityArmSinglePrintMkIII in both directions - due to the way the print comes out and the roughness where the support is. Recommend printing one facing right, and one facing left.
