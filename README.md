@@ -2,11 +2,12 @@
 
 Sharing the path to building (or not?) our own R2D2.
 
+### Initial blueprints and wooden frame
 1. [How this got started](chapter01-getting-started.md)
 2. [Blueprints](chapter02-blueprints.md)
 3. [Cutting out the frame](chapter03-cutting-the-frame.md)
 4. [Creating the legs](chapter04-cutting-the-legs.md)
-## Rebooting with a 3d printer
+### Rebooting with a 3d printer
 5. [Restarting with the dome...](chapter05-the-dome.md)
 6. [3d printing the body](chapter06-the-body.md)
 7. [3d printing the legs](chapter07-the-legs.md)
