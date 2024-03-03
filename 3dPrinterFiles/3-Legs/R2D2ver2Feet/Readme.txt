@@ -1,1 +1,0 @@
-These are the MKIII files for the drive, the original v2 are in the Retired Legacy folder but please use these for all builds and use the MKIII instructions to assemble. 
