@@ -10,8 +10,10 @@ Sharing the path to building (or not?) our own R2D2.
 ### Rebooting with a 3d printer
 5. [Restarting with the dome...](chapter05-the-dome.md)
 6. [3d printing the body](chapter06-the-body.md)
-7. [3d printing the legs](chapter07-the-legs.md)
-7. [3d printing the feet](chapter07-the-legs.md)
+7. [3d printing the outer legs](chapter07-the-outer-legs.md)
+8. [3d printing the outer feet](chapter08-the-outer-feet.md)
+9. [3d printing the central foot](chapter09-the-central-foot.md)
+10. [The electronics](chapter10-the-electronics.md)
 
 ![image](https://user-images.githubusercontent.com/8389039/172520540-c29c438b-2d1b-4cb6-a2e4-d6632e8c20a5.png)
 
