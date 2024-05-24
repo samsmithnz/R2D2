@@ -1,0 +1,3 @@
+For Syren and sabertooth controlers: https://www.dimensionengineering.com/info/arduino
+For MP3 TRigger; https://github.com/sansumbrella/MP3Trigger-for-Arduino/tree/master
+XboxReceiver (Just the XBOXRECV .cpp and .h files): https://github.com/felis/USB_Host_Shield_2.0/tree/master 

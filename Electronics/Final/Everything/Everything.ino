@@ -79,7 +79,7 @@ const byte RAMPING = 5;
 // direct method calls against the Syren/Sabertooth library itself but it's not supported in all
 // serial modes so just manage and check it in software here
 // use the lowest number with no drift
-// DOMEDEADZONERANGE for the left stick, DRIVEDEADZONERANGE for the right stick
+// DOMEDEADZONERANGE for the left stick, DRIVEDEADZONERANGE for the right stickc:\Users\samsm\source\repos\R2D2\Electronics\Final\Everything\Sabertooth.h
 const byte DOMEDEADZONERANGE = 20;
 const byte DRIVEDEADZONERANGE = 20;
 
@@ -207,14 +207,14 @@ void setup() {
   if(isLeftStickDrive) {
     throttleAxis = LeftHatY;
     turnAxis = LeftHatX;
-    domeAxis = RightHatX;
+    //domeAxis = RightHatX;
     speedSelectButton = L3;
     hpLightToggleButton = R3;
 
   } else {
     throttleAxis = RightHatY;
     turnAxis = RightHatX;
-    domeAxis = LeftHatX;
+    //domeAxis = LeftHatX;
     speedSelectButton = R3;
     hpLightToggleButton = L3;
   }
@@ -227,10 +227,10 @@ void setup() {
   // Wait for serial port to connect - used on Leonardo, Teensy and other boards with built-in USB CDC serial connection
   while (!Serial);
   if (Usb.Init() == -1) {
-    //Serial.print(F("\r\nOSC did not start"));
+    Serial.print(F("\r\nOSC did not start"));
     while (1); //halt
   }
-  //Serial.print(F("\r\nXbox Wireless Receiver Library Started"));
+  Serial.print(F("\r\nXbox Wireless Receiver Library Started"));
 }
 
 
@@ -568,11 +568,11 @@ void loop() {
   }
 
   // DOME DRIVE!
-  domeThrottle = (map(Xbox.getAnalogHat(domeAxis, 0), -32768, 32767, DOMESPEED, -DOMESPEED));
-  if (domeThrottle > -DOMEDEADZONERANGE && domeThrottle < DOMEDEADZONERANGE) {
-    //stick in dead zone - don't spin dome
-    domeThrottle = 0;
-  }
+  // domeThrottle = (map(Xbox.getAnalogHat(domeAxis, 0), -32768, 32767, DOMESPEED, -DOMESPEED));
+  // if (domeThrottle > -DOMEDEADZONERANGE && domeThrottle < DOMEDEADZONERANGE) {
+  //   //stick in dead zone - don't spin dome
+  //   domeThrottle = 0;
+  // }
 
   //Syren10.motor(1, domeThrottle);
 } // END loop()
