@@ -1,3 +1,5 @@
+I used the MK3 version of the body.
+
 The body contains the largest and longest prints. Some of the last pieces are 36 hours. 
 
 There are 5 layers, the skirt, then ring 1, 2, 3, and 4. 
