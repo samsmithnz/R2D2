@@ -57,7 +57,7 @@ byte drivespeed = DRIVESPEED1;
 // the higher this number the faster the droid will spin in place, lower - easier to control.
 // Recommend beginner: 40 to 50, experienced: 50 $ up, I like 70
 // This may vary based on your drive system and power system
-const byte TURNSPEED = 40;
+const byte TURNSPEED = 40; // customized by SAM
 
 // Set isLeftStickDrive to true for driving  with the left stick
 // Set isLeftStickDrive to false for driving with the right stick (legacy and original configuration)
@@ -105,18 +105,26 @@ byte automateDelay = random(5, 20);
 //How much the dome may turn during automation.
 int turnDirection = 20;
 
+// Define hardware type, size, and output pins:
+#define HARDWARE_TYPE MD_MAX72XX::FC16_HW
+#define MAX_DEVICES 4
+#define DATA_PIN 50
+#define CLK_PIN 51
+#define CS_PIN 53
 // Pin number to pull a relay high/low to trigger my upside down compressed air like R2's extinguisher
 #define EXTINGUISHERPIN 3
 
+#include "SPI.h"
+#include "LedControl.h"
 #include <Sabertooth.h>
 #include <MP3Trigger.h>
 #include <Wire.h>
 #include <XBOXRECV.h>
 
-
 /////////////////////////////////////////////////////////////////
+LedControl led = LedControl (DATA_PIN,CLK_PIN,CS_PIN,1);
 Sabertooth Sabertooth2x(128, Serial1);
-//Sabertooth Syren10(128, Serial2);
+Sabertooth Syren10(128, Serial2);
 
 // Satisfy IDE, which only needs to see the include statment in the ino.
 #ifdef dobogusinclude
@@ -144,7 +152,7 @@ boolean firstLoadOnConnect = false;
 
 AnalogHatEnum throttleAxis;
 AnalogHatEnum turnAxis;
-//AnalogHatEnum domeAxis;
+AnalogHatEnum domeAxis;
 ButtonEnum speedSelectButton;
 ButtonEnum hpLightToggleButton;
 
@@ -170,14 +178,20 @@ USB Usb;
 XBOXRECV Xbox(&Usb);
 
 void setup() {
-  Serial1.begin(SABERTOOTHBAUDRATE);
-  //Serial2.begin(DOMEBAUDRATE);
+  // we have to do a wakeup call
+  led.shutdown(0,false);
 
-// #if defined(SYRENSIMPLE)
-//   Syren10.motor(0);
-// #else
-//   Syren10.autobaud();
-// #endif
+  // set the brightness to a medium value
+  led.setIntensity(0,0); 
+
+  Serial1.begin(SABERTOOTHBAUDRATE);
+  Serial2.begin(DOMEBAUDRATE);
+
+#if defined(SYRENSIMPLE)
+  Syren10.motor(0);
+#else
+  Syren10.autobaud();
+#endif
 
   // Send the autobaud command to the Sabertooth controller(s).
   /* NOTE: *Not all* Sabertooth controllers need this command.
@@ -196,7 +210,7 @@ void setup() {
 
 
   Sabertooth2x.setTimeout(950);
-  //Syren10.setTimeout(950);
+  Syren10.setTimeout(950);
 
   pinMode(EXTINGUISHERPIN, OUTPUT);
   digitalWrite(EXTINGUISHERPIN, HIGH);
@@ -207,14 +221,14 @@ void setup() {
   if(isLeftStickDrive) {
     throttleAxis = LeftHatY;
     turnAxis = LeftHatX;
-    //domeAxis = RightHatX;
+    domeAxis = RightHatX;
     speedSelectButton = L3;
     hpLightToggleButton = R3;
 
   } else {
     throttleAxis = RightHatY;
     turnAxis = RightHatX;
-    //domeAxis = LeftHatX;
+    domeAxis = LeftHatX;
     speedSelectButton = R3;
     hpLightToggleButton = L3;
   }
@@ -231,10 +245,24 @@ void setup() {
     while (1); //halt
   }
   Serial.print(F("\r\nXbox Wireless Receiver Library Started"));
+
 }
 
 
 void loop() {
+
+  for(int x = 0; x < 8; x++) {
+    for(int y = 0; y < 8; y++) {
+      if(random(0,2) == 0) {
+        led.setLed(0, x, y, true);
+      } else {
+        led.setLed(0, x, y, false);
+      }
+    }
+  }
+
+  // delay(10);
+
   Usb.Task();
   // if we're not connected, return so we don't bother doing anything else.
   // set all movement to 0 so if we lose connection we don't have a runaway droid!
@@ -242,7 +270,7 @@ void loop() {
   if (!Xbox.XboxReceiverConnected || !Xbox.Xbox360Connected[0]) {
     Sabertooth2x.drive(0);
     Sabertooth2x.turn(0);
-    //Syren10.motor(1, 0);
+    Syren10.motor(1, 0);
     firstLoadOnConnect = false;
     return;
   }
@@ -304,19 +332,19 @@ void loop() {
         mp3Trigger.play(random(32, 52));
       }
       if (automateAction < 4) {
-// #if defined(SYRENSIMPLE)
-//         Syren10.motor(turnDirection);
-// #else
-//         Syren10.motor(1, turnDirection);
-// #endif
+#if defined(SYRENSIMPLE)
+        Syren10.motor(turnDirection);
+#else
+        Syren10.motor(1, turnDirection);
+#endif
 
         delay(750);
 
-// #if defined(SYRENSIMPLE)
-//         Syren10.motor(0);
-// #else
-//         Syren10.motor(1, 0);
-// #endif
+#if defined(SYRENSIMPLE)
+        Syren10.motor(0);
+#else
+        Syren10.motor(1, 0);
+#endif
 
         if (turnDirection > 0) {
           turnDirection = -45;
@@ -568,13 +596,13 @@ void loop() {
   }
 
   // DOME DRIVE!
-  // domeThrottle = (map(Xbox.getAnalogHat(domeAxis, 0), -32768, 32767, DOMESPEED, -DOMESPEED));
-  // if (domeThrottle > -DOMEDEADZONERANGE && domeThrottle < DOMEDEADZONERANGE) {
-  //   //stick in dead zone - don't spin dome
-  //   domeThrottle = 0;
-  // }
+  domeThrottle = (map(Xbox.getAnalogHat(domeAxis, 0), -32768, 32767, DOMESPEED, -DOMESPEED));
+  if (domeThrottle > -DOMEDEADZONERANGE && domeThrottle < DOMEDEADZONERANGE) {
+    //stick in dead zone - don't spin dome
+    domeThrottle = 0;
+  }
 
-  //Syren10.motor(1, domeThrottle);
+  Syren10.motor(1, domeThrottle);
 } // END loop()
 
 void triggerI2C(byte deviceID, byte eventID) {
