@@ -1,10 +1,11 @@
 name: build Arduino code
 
-#on:
+on:
 #  push:
 #    branches: [ main ]
 #  pull_request:
-#    branches: [ main ]
+#    branches: [ main ]on:
+  workflow_dispatch:
     
 jobs:
   build:
