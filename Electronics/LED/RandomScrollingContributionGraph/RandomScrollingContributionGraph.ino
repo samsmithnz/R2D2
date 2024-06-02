@@ -19,7 +19,7 @@ void setup() {
 }
 
 void loop() {
-    for(int x = 0; x < 8; x++) {
+  for(int x = 0; x < 8; x++) {
     for(int y = 0; y < 8; y++) {
       if(random(0,2) == 0) {
         lc.setLed(0, x, y, true);
@@ -29,5 +29,5 @@ void loop() {
     }
   }
 
-  delay(10);
+  //delay(100);
 }
